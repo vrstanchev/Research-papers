@@ -1,77 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T03:21:23.151Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="xTmc5mjQdrZfjCPU7nRZ" version="22.1.4" type="google">
+<mxfile host="app.diagrams.net" modified="2023-12-02T17:33:41.139Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="GNL7nd4ZVr31wZsbXMsB" version="22.1.5" type="device">
   <diagram name="Page-1" id="8ujNkZL-UvPTrEu08CEH">
-    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="843" dy="478" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-3" value="PC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-3" value="PC" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="407" y="29" width="78" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-4" value="&lt;div&gt;Virtualization&lt;/div&gt;&lt;div&gt;QEMU,VBox&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-4" value="&lt;div&gt;Virtualization&lt;/div&gt;&lt;div&gt;QEMU,VBox&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="403" y="123" width="89" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-6" value="RTOS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-6" value="RTOS" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="457" y="201" width="74" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-8" value="&lt;div&gt;Application develop&lt;/div&gt;&lt;div&gt;release deploy&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-8" value="&lt;div&gt;Application develop&lt;/div&gt;&lt;div&gt;release deploy&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="319" y="180" width="92" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hCgfWxHEHQQVAN8_4vTF-4" target="hCgfWxHEHQQVAN8_4vTF-3">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="hCgfWxHEHQQVAN8_4vTF-4" target="hCgfWxHEHQQVAN8_4vTF-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="421" y="286" as="sourcePoint" />
             <mxPoint x="471" y="236" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hCgfWxHEHQQVAN8_4vTF-4" target="hCgfWxHEHQQVAN8_4vTF-6">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hCgfWxHEHQQVAN8_4vTF-4" target="hCgfWxHEHQQVAN8_4vTF-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="421" y="286" as="sourcePoint" />
             <mxPoint x="471" y="236" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hCgfWxHEHQQVAN8_4vTF-6" target="hCgfWxHEHQQVAN8_4vTF-8">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hCgfWxHEHQQVAN8_4vTF-6" target="hCgfWxHEHQQVAN8_4vTF-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="458" y="133" as="sourcePoint" />
             <mxPoint x="456" y="101" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-15" value="PC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-15" value="PC" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="133" y="23" width="78" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-16" value="Target RTOS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-16" value="Target RTOS" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="139" y="98" width="89" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-17" value="&lt;div&gt;C,inline assembler,&lt;/div&gt;&lt;div&gt;assembler according to Instrruction set&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-17" value="&lt;div&gt;C,inline assembler,&lt;/div&gt;&lt;div&gt;assembler according to Instrruction set&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="154" y="189" width="120" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-18" value="Upload to target micro-controller module" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-18" value="Upload to target micro-controller module" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="27" y="195" width="92" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hCgfWxHEHQQVAN8_4vTF-22" target="hCgfWxHEHQQVAN8_4vTF-15">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="hCgfWxHEHQQVAN8_4vTF-22" target="hCgfWxHEHQQVAN8_4vTF-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="147" y="280" as="sourcePoint" />
             <mxPoint x="197" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hCgfWxHEHQQVAN8_4vTF-16" target="hCgfWxHEHQQVAN8_4vTF-17">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hCgfWxHEHQQVAN8_4vTF-16" target="hCgfWxHEHQQVAN8_4vTF-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="147" y="280" as="sourcePoint" />
             <mxPoint x="197" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hCgfWxHEHQQVAN8_4vTF-17" target="hCgfWxHEHQQVAN8_4vTF-18">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hCgfWxHEHQQVAN8_4vTF-17" target="hCgfWxHEHQQVAN8_4vTF-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="184" y="127" as="sourcePoint" />
             <mxPoint x="182" y="95" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-22" value="Installed toolchain" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-22" value="Installed toolchain" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="34" y="96" width="78" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="hCgfWxHEHQQVAN8_4vTF-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hCgfWxHEHQQVAN8_4vTF-22" target="hCgfWxHEHQQVAN8_4vTF-16">
+        <mxCell id="hCgfWxHEHQQVAN8_4vTF-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hCgfWxHEHQQVAN8_4vTF-22" target="hCgfWxHEHQQVAN8_4vTF-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="215" y="178" as="sourcePoint" />
             <mxPoint x="236" y="209" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3Oin4aY1NJraYVRR9UJf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3Oin4aY1NJraYVRR9UJf-1" target="3Oin4aY1NJraYVRR9UJf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oin4aY1NJraYVRR9UJf-1" value="PC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="89" y="361.5" width="71" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oin4aY1NJraYVRR9UJf-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Oin4aY1NJraYVRR9UJf-2" target="3Oin4aY1NJraYVRR9UJf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oin4aY1NJraYVRR9UJf-2" value="RTOS Application" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="186" y="351" width="71" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oin4aY1NJraYVRR9UJf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3Oin4aY1NJraYVRR9UJf-5" target="3Oin4aY1NJraYVRR9UJf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oin4aY1NJraYVRR9UJf-5" value="Build system-based pipeline" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="283" y="350" width="135" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oin4aY1NJraYVRR9UJf-7" value="Upload to multiple micro-controller boards" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="341.13" width="144" height="80.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
