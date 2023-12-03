@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-12-03T20:32:28.655Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="tpFRZZ0B1HOr6TH8V1-3" version="22.1.2" type="device" pages="2">
+<mxfile host="Electron" modified="2023-12-03T20:32:18.835Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="nwKV9m-NJOeQ9SSvFla7" version="22.1.2" type="device" pages="2">
   <diagram name="RTOS_overview" id="8ujNkZL-UvPTrEu08CEH">
     <mxGraphModel dx="843" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -187,7 +187,7 @@
           <mxGeometry x="44" y="462" width="144" height="80.75" as="geometry" />
         </mxCell>
         <mxCell id="N1m3bUrT-c0btwWOehr6-8" value="Upload to multiple micro-controller boards" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="211" y="519" width="124" height="82.87" as="geometry" />
+          <mxGeometry x="159" y="557" width="124" height="82.87" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
